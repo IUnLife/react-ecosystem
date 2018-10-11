@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import configureStore from './store';
 import './index.css';
-import App from './App';
-import Login from './components/Login';
+
 import rootSaga from './rootSaga';
 import * as serviceWorker from './serviceWorker';
 import Routes from './routes';
 
-import {Route, BrowserRouter } from 'react-router-dom';
+import {BrowserRouter } from 'react-router-dom';
 
 const initialState = {
   characters: {items:[]}
